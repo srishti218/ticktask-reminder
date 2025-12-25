@@ -1,0 +1,57 @@
+/* ---------------------------------
+   TickTask Reminder Theme Variables
+---------------------------------- */
+
+:root {
+  /* Brand Colors */
+  --color-primary: #0ea5e9;
+  --color-primary-dark: #0284c7;
+  --color-secondary: #0f766e;
+
+  /* Backgrounds */
+  --bg-main: #020617;
+  --bg-surface: #0f172a;
+  --bg-elevated: #020617;
+
+  /* Text */
+  --text-primary: #e5e7eb;
+  --text-secondary: #cbd5f5;
+  --text-muted: #94a3b8;
+
+  /* Borders & Dividers */
+  --border-subtle: #1e293b;
+
+  /* States */
+  --focus-ring: #38bdf8;
+  --danger: #ef4444;
+  --success: #22c55e;
+}
+
+/* ---------------------------------
+   Optional Light Theme (Future)
+---------------------------------- */
+
+[data-theme="light"] {
+  --bg-main: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-elevated: #ffffff;
+
+  --text-primary: #020617;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+
+  --border-subtle: #e5e7eb;
+}
+
+/* ---------------------------------
+   Base Application Mapping
+---------------------------------- */
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+section {
+  background-color: transparent;
+}
