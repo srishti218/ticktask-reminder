@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy,
               you can contact us at:
             </p>
-            <p style={styles.contact}>support@ticktaskreminder.com</p>
+            <p style={styles.contact}>srishti218@gmail.com</p>
           </Section>
         </section>
       </main>

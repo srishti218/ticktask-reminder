@@ -17,9 +17,9 @@ export default function CTA() {
           Download App
         </button>
 
-        <button style={styles.secondary}>
-          See How It Works
-        </button>
+        <a href="/how-it-works" style={styles.secondary}>
+  See How It Works
+</a>
       </div>
     </section>
   );

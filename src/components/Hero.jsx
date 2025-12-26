@@ -16,12 +16,13 @@ export default function Hero() {
           </p>
 
           <div style={styles.actions}>
-            <button style={styles.primary}>
-              Get Started
-            </button>
+            <a href="/get-started" style={styles.primary}>
+  Get Started
+</a>
             <a href="/learn-more" style={styles.secondary}>
               Learn More
             </a>
+            
           </div>
         </div>
 
