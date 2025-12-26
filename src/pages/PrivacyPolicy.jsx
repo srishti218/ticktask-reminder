@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Privacy Policy for TickTask Reminder. Learn how we collect, use, and protect your information."
+        "Privacy Policy for TickTask Reminder. We do not collect, store, or share any personal data."
       );
     }
   }, []);
@@ -24,72 +24,66 @@ export default function PrivacyPolicy() {
 
           <p style={styles.text}>
             TickTask Reminder respects your privacy. This Privacy Policy explains
-            how we collect, use, and protect your information when you use our
-            application and website.
+            our commitment to protecting your information. We do <strong>not</strong>
+            collect, store, or share any personal data in any form.
           </p>
 
           <Section title="1. Information We Collect">
             <p style={styles.text}>
-              We collect minimal information required to operate the app effectively.
-              This may include:
+              TickTask Reminder does <strong>not collect any personal or non-personal data</strong>.
+              We do not require account creation, do not track usage, and do not
+              collect device information.
             </p>
-            <ul style={styles.list}>
-              <li>Basic account information (if you create an account)</li>
-              <li>Tasks, reminders, and checklist data you enter</li>
-              <li>Device and usage information for app performance</li>
-            </ul>
           </Section>
 
-          <Section title="2. How We Use Your Information">
-            <ul style={styles.list}>
-              <li>To provide reminder and task functionality</li>
-              <li>To improve app performance and reliability</li>
-              <li>To fix bugs and enhance user experience</li>
-            </ul>
-          </Section>
-
-          <Section title="3. Data Storage & Security">
+          <Section title="2. Task & Reminder Data">
             <p style={styles.text}>
-              We take reasonable security measures to protect your data.
-              Your information is never sold or shared with third parties
-              for advertising purposes.
+              All tasks, reminders, and related information you create remain
+              <strong> entirely on your device</strong>. This data is not transmitted
+              to any server and is never accessible to us.
             </p>
           </Section>
 
-          <Section title="4. Notifications & Reminders">
+          <Section title="3. Notifications">
             <p style={styles.text}>
-              TickTask Reminder uses notifications only to deliver reminders
-              you explicitly set. We do not send promotional notifications
-              without your consent.
+              Notifications are used only to deliver reminders you explicitly set.
+              TickTask Reminder does not send promotional notifications or background
+              messages of any kind.
             </p>
           </Section>
 
-          <Section title="5. Third-Party Services">
+          <Section title="4. Third-Party Services">
             <p style={styles.text}>
-              We may use trusted third-party services for analytics or hosting.
-              These services are bound by their own privacy policies and are
-              used only to support app functionality.
+              TickTask Reminder does <strong>not use any third-party analytics,
+              tracking, advertising, or data collection services</strong>.
             </p>
           </Section>
 
-          <Section title="6. Your Rights">
+          <Section title="5. Data Security">
+            <p style={styles.text}>
+              Since no data is collected or stored externally, there is no risk
+              of your personal information being accessed, shared, or sold.
+            </p>
+          </Section>
+
+          <Section title="6. Your Privacy Rights">
             <ul style={styles.list}>
-              <li>You can delete your tasks and reminders at any time</li>
-              <li>You can stop using the app without providing personal data</li>
+              <li>You can use the app without providing any personal information</li>
+              <li>You can delete tasks and reminders at any time from your device</li>
+              <li>No data is retained after app deletion</li>
             </ul>
           </Section>
 
           <Section title="7. Changes to This Policy">
             <p style={styles.text}>
-              We may update this Privacy Policy from time to time.
-              Any changes will be reflected on this page.
+              If this Privacy Policy is updated in the future, changes will be
+              reflected on this page.
             </p>
           </Section>
 
           <Section title="8. Contact Us">
             <p style={styles.text}>
-              If you have any questions about this Privacy Policy,
-              you can contact us at:
+              If you have any questions about this Privacy Policy, you can contact us at:
             </p>
             <p style={styles.contact}>srishti218@gmail.com</p>
           </Section>
