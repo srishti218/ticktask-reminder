@@ -34,24 +34,18 @@ export default function SeeHowItWorks() {
 
             <Step
               step="02"
-              title="Automatic Breakdown"
-              description="Your task is converted into small, actionable steps so you always know what to do next."
-            />
-
-            <Step
-              step="03"
               title="Set Time & Reminder"
               description="Pick the right date and time. TickTask handles remembering for you."
             />
 
             <Step
-              step="04"
+              step="03"
               title="Get Notified"
               description="Receive a clean, focused reminder—no noise, no spam."
             />
 
             <Step
-              step="05"
+              step="04"
               title="Tick and Move On"
               description="Complete the step, tick it off, and move forward with clarity."
             />

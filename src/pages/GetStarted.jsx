@@ -32,16 +32,11 @@ export default function GetStarted() {
             />
             <Step
               number="2"
-              title="Break It Into Steps"
-              text="TickTask helps you think clearly by turning tasks into manageable steps."
-            />
-            <Step
-              number="3"
               title="Set a Reminder"
               text="Choose the right time. Let the app handle remembering."
             />
             <Step
-              number="4"
+              number="3"
               title="Take Action"
               text="When the reminder comes, act. Tick it off. Move forward."
             />
